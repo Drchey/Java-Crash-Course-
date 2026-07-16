@@ -1,42 +1,16 @@
 class Car {
     // Data
     private String name;
-    private String brand;
-    private boolean is_active;
-    private int battery_level;
+    int value = 100;
 
-    // Constructors ? - Run at creation
+    public int multiplyBy(int x) {
 
-    public Car(String name, String brand, boolean is_active, int battery_level) {
-        this.name = name;
-        this.brand = brand;
-        this.is_active = is_active;
-        this.battery_level = battery_level;
+        return x * 100;
     }
 
-    // Methods
-    public void drive() {
-        System.out.println(name);
-    }
+    public double addBy(int x) {
 
-    public void setBatteryLevel(int battery_level) {
-        if (battery_level > 0 && battery_level < 100) {
-            System.out.println("Battery is Good");
-        } else {
-            System.out.println("Invalid Battery Level");
-        }
-    }
-
-    public void honk() {
-        System.out.println("Honking");
-    }
-
-    public void brake() {
-        System.out.println("Braking");
-    }
-
-    public void dance() {
-        System.out.println("Dance !");
+        return x + value;
     }
 
 }
@@ -44,10 +18,10 @@ class Car {
 public class Demo {
 
     public static void main(String[] args) {
-        Car tesla = new Car("tesla", "model S", true, 80); // Objects
-        tesla.drive();
-        tesla.dance();
-        // System.out.println();
+        Car tesla = new Car();
+        int total = tesla.multiplyBy(56);
+        System.out.println(total);
+
     }
 
 }
