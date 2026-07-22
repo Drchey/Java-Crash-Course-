@@ -26,9 +26,9 @@ class Hamm extends May {
 
 public class Employee {
 
-    public static void main(String[] args) {
-        Hamm obj = new Hamm();
-        obj.drive();
-        // obj.walk();
-    }
+    // public static void main(String[] args) {
+    // Hamm obj = new Hamm();
+    // obj.drive();
+    // // obj.walk();
+    // }
 }
