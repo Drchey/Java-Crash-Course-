@@ -38,32 +38,32 @@ class Honda implements Car {
 }
 
 public class Interfaces {
-    public static void main(String[] args) {
+    // public static void main(String[] args) {
 
-        // Creating object of Honda
-        Honda myObj = new Honda();
+    // // Creating object of Honda
+    // Honda myObj = new Honda();
 
-        // Calling implemented methods
-        myObj.drive();
-        myObj.honk();
+    // // Calling implemented methods
+    // myObj.drive();
+    // myObj.honk();
 
-        // Calling Honda-specific method
-        myObj.brake();
+    // // Calling Honda-specific method
+    // myObj.brake();
 
-        // BEST PRACTICE: Use interface reference (loose coupling)
-        Car car = new Honda();
+    // // BEST PRACTICE: Use interface reference (loose coupling)
+    // Car car = new Honda();
 
-        // Allowed: methods defined in interface
-        car.drive();
-        car.honk();
+    // // Allowed: methods defined in interface
+    // car.drive();
+    // car.honk();
 
-        // Not allowed:
-        // car.brake();
+    // // Not allowed:
+    // // car.brake();
 
-        /**
-         * Key idea:
-         * - Interface defines WHAT to do
-         * - Class defines HOW to do it
-         */
-    }
+    // /**
+    // * Key idea:
+    // * - Interface defines WHAT to do
+    // * - Class defines HOW to do it
+    // */
+    // }
 }

@@ -87,19 +87,19 @@ class Admin extends Writer {
 // ----------------------
 public class Inheritance {
 
-    public static void main(String[] args) {
+    // public static void main(String[] args) {
 
-        // Creating an Admin object
-        // Uncomment: Admin admin1 = new Admin("John Doe");
+    // // Creating an Admin object
+    // // Uncomment: Admin admin1 = new Admin("John Doe");
 
-        // // Admin inherits this method from User class
-        // Uncomment: admin1.getUserName();
+    // // // Admin inherits this method from User class
+    // // Uncomment: admin1.getUserName();
 
-        // // Admin can also access Writer methods
-        // Uncomment: admin1.writeBlog();
+    // // // Admin can also access Writer methods
+    // // Uncomment: admin1.writeBlog();
 
-        // // And its own methods
-        // Uncomment: admin1.createUser();
-    }
+    // // // And its own methods
+    // // Uncomment: admin1.createUser();
+    // }
 
 }

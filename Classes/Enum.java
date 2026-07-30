@@ -27,18 +27,18 @@ enum Stages {
 
 public class Enum {
 
-    public static void main(String[] args) {
+    // public static void main(String[] args) {
 
-        // // Assigning a specific enum constant
-        // Stages myObj = Stages.SECONDARY;
+    // // // Assigning a specific enum constant
+    // // Stages myObj = Stages.SECONDARY;
 
-        // // Calling method on enum constant
-        // // FIX: You must print it, otherwise nothing shows
-        // System.out.println(myObj.getCaption());
+    // // // Calling method on enum constant
+    // // // FIX: You must print it, otherwise nothing shows
+    // // System.out.println(myObj.getCaption());
 
-        // // Example: looping through all enum values
-        // for (Stages stage : Stages.values()) {
-        // System.out.println(stage + " -> " + stage.getCaption());
-        // }
-    }
+    // // // Example: looping through all enum values
+    // // for (Stages stage : Stages.values()) {
+    // // System.out.println(stage + " -> " + stage.getCaption());
+    // // }
+    // }
 }
