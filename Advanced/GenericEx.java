@@ -1,28 +1,25 @@
 package Advanced;
 
-class Animal<T extends Number> {
+class Calculator<T extends Number> {
 
-    T value;
+    private T first;
+    private T sec;
 
-    void set(T value) {
-        this.value = value;
+    public Calculator(T first, T sec) {
+        this.first = first;
+        this.sec = sec;
     }
 
-    T get() {
-        return value;
+    public double sum() {
+        return first.doubleValue() + sec.doubleValue();
     }
-
 }
 
 public class GenericEx {
 
     public static void main(String[] args) {
-
-        Animal<Double> names = new Animal<>();
-        names.set(23.1);
-        System.out.println(names);
-
-        Animal<Integer> code = new Animal<>();
-        code.set(45);
+        Calculator<Integer> myCalc = new Calculator(4, 10);
+        double newVal = myCalc.sum();
+        System.out.println(newVal);
     }
 }
