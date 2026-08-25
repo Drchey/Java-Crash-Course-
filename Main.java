@@ -1,39 +1,17 @@
-/**
- * Abstraction
- */
+import java.util.ArrayList;
+import java.util.List;
 
-interface Greeting {
-    public abstract void sayHello();
+public class Main {
+    public static void sayHello() {
 
-    public abstract void eat();
-}
+        // List names = new ArrayList<>();
+        // names.add("John");
+        // names.add("James");
 
-class Morning implements Greeting {
-    public void sayHello() {
-        System.out.println("Good Morning");
+        // System.out.println(names);
     }
 
-    public void eat() {
-        System.out.println("Breakfast");
-    }
-}
-
-class Afternoon implements Greeting {
-    public void sayHello() {
-        System.out.println("Good Afternoon");
-    }
-
-    public void eat() {
-        System.out.println("Lunch");
-    }
-}
-
-class Evening implements Greeting {
-    public void sayHello() {
-        System.out.println("Good Evening");
-    }
-
-    public void eat() {
-        System.out.println("Dinner");
+    public static void main(String[] args) {
+        sayHello();
     }
 }
